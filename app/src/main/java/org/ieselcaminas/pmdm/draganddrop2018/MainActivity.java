@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onDrag(View v, DragEvent event) {
             int action = event.getAction();
-            switch (event.getAction()) {
+            switch (action) {
                 case DragEvent.ACTION_DRAG_STARTED:
                     // Do nothing
                     break;
